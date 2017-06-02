@@ -2,12 +2,16 @@
 	<div class="sidebar-wrapper">
 		<div class="logo">
 			<a href="#">
-				Logo
-				<img src="" alt="">
+				<img class="img-responsive" src="./assets/img/minsa_logo.png" alt="Logo Minsa">
 			</a>
 		</div>
 		<ul class="nav">
-			<li class="glyphicon glyphicon-search" *ngFor = "let item of items"><a href="#">{{item}}</a></li>
+			<li *ngFor = "let item of items">
+				<a href="#">
+					<i class="glyphicon glyphicon-triangle-right"></i>
+					<span>{{item}}</span>
+				</a>
+			</li>
 		</ul>
 	</div>
 </div>
