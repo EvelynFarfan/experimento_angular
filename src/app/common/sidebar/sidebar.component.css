@@ -36,5 +36,8 @@
     color: #80898E;
     opacity: .86;
     display: block;
-    padding: 10px 15px 14px 14px;
+    padding: 14px 15px 14px 15px;
+}
+#IconArrowMenu{
+	color: #00B1F1;
 }
