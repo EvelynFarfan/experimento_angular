@@ -44,8 +44,8 @@
     margin-top: 20px;
 }
 .sidebar .user .photo, .bootstrap-navbar .user .photo {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
     border-radius: 50%;
     border: 4px solid rgba(255, 255, 255, 0.3);
