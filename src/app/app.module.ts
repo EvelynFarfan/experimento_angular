@@ -7,20 +7,26 @@ import { AlertModule } from 'ngx-bootstrap';
 import { AppComponent } from './app.component'
 import { WrapperComponent } from './common/wrapper/wrapper.component'
 import { SidebarComponent } from './common/sidebar/sidebar.component'
-import { HeaderComponent } from './common/header.component'
-import { FooterComponent } from './common/footer.component'
-import { LeftComponent } from './common/left.component'
-import { RightComponent } from './common/right.component'
+import { MainPanelComponent } from './common/MainPanel/main-panel.component' 
+import { NavbarComponent } from './common/navbar/navbar.component'
+import { ContentComponent } from './common/content/content.component'
+import { TittleFamilyComponent } from './common/TittleFamily/tittle-family.component'
+import { CollapseComponent } from './common/collapse/collapse.component' 
+import { CardComponent } from './common/card/card.component'
+import { FooterComponent } from './common/footer/pie.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    LeftComponent,
-    RightComponent,
     WrapperComponent,
-    SidebarComponent
+    SidebarComponent,
+    MainPanelComponent,
+    NavbarComponent,
+    ContentComponent,
+    TittleFamilyComponent,
+    CollapseComponent,
+    CardComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

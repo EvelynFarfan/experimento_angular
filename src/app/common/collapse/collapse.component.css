@@ -1,0 +1,79 @@
+.nav {
+  padding: 0;
+}
+.nav .nav-item {
+  padding: 1em 0;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.nav .nav-item a {
+  text-decoration: none;
+  color: #12c777;
+}
+.nav .nav-item a:hover,
+.nav .nav-item a:focus {
+  color: #c76712;
+}
+.nav .nav-item .nav-indicator {
+  position: absolute;
+  /*right: 1em;*/
+  left: 25em;
+}
+.nav--primary .nav-item.is-active path {
+  stroke-dashoffset: -15;
+}
+.nav--secondary {
+  overflow: hidden;
+  margin-top: 3em;
+  will-change: height;
+  -webkit-transition: height 0.3s, margin-top 0.3s;
+  transition: height 0.3s, margin-top 0.3s;
+}
+.is-collapsed .nav--secondary {
+  margin-top: 0;
+  height: 0 !important;
+}
+.nav--secondary .nav-item {
+  padding: .3em 1em;
+}
+.nav--secondary .nav-item + .nav-item {
+  border: none;
+}
+.nav--primary svg.nav-indicator path {
+  fill: none;
+  stroke: #aaa;
+  stroke-linecap: round;
+  stroke-width: 2;
+  stroke-dasharray: 29 40;
+  -webkit-transition: stroke-dashoffset 0.3s;
+  transition: stroke-dashoffset 0.3s;
+}
+.nav--alt svg.nav-indicator--alt {
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+.nav--alt svg.nav-indicator--alt path {
+  fill: none;
+  stroke: #00B1F1;
+  stroke-linecap: square;
+  stroke-width: 2;
+  stroke-dasharray: 14 40;
+  stroke-dashoffset: -15;
+  -webkit-transition: stroke-dashoffset 0.3s;
+  transition: stroke-dashoffset 0.3s;
+}
+.nav--alt .nav-item.is-active svg {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.nav--alt .nav-item.is-active svg path {
+  stroke-dashoffset: 0;
+}
+.nav--secondary #container-cards{
+  padding-left: 0;
+}
