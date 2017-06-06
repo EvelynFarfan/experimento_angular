@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AlertModule } from 'ngx-bootstrap';
+import {NgbModule } from '@ng-bootstrap/ng-bootstrap'; 
 
 import { AppComponent } from './app.component'
 import { WrapperComponent } from './common/wrapper/wrapper.component'
@@ -26,7 +27,7 @@ import { FooterComponent } from './common/footer/pie.component'
     TittleFamilyComponent,
     CollapseComponent,
     CardComponent,
-    FooterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
