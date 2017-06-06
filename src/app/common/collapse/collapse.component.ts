@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+declare var jQuery:any;
+declare var $:any;
+
 const ITEMS: Item[] = [
 	{info: 'Mis Hijos', description: '(3 Personas)'},
 	{info: 'Mis Familiares', description: '(1 Persona)'},
@@ -23,9 +26,18 @@ export class CollapseComponent{
 	seleccionar(item){
 		this.itemSeleccionado = item;
 	}
+
+	public isCollapsed:boolean = false;
+	public collapsed(event:any):void{
+		console.log(event);
+	}
+	public expanded(event:any):void{
+		console.log(event);
+	}
 };
 
 export class Item{
 	info: string;
 	description: string;
 }
+
