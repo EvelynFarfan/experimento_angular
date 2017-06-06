@@ -49,6 +49,7 @@
     border: 4px solid rgba(255, 255, 255, 0.3);
     margin: 0 auto;
 }
-#IconArrowMenu{
+.IconArrowMenu{
 	color: #00B1F1;
+    margin-right: 15px;
 }
