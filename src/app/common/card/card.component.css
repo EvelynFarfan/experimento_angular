@@ -6,11 +6,7 @@
   margin-bottom: 30px;
   box-shadow: 2px 2px 5px #c7c7c7;
   border: 1px solid #d3d3d3;
-  /* */
-  display: block !important;
-  overflow: hidden !important;
-  -webkit-transition: height .5s;
-  transition: height .5s;
+  font-family: 'Roboto', sans-serif ;
 }
 .card .header {
   padding: 15px 15px 0;
@@ -39,4 +35,12 @@
 }
 .stats{
   margin-top: 15px;
+}
+.nameChildren{
+  padding-top: 13%;
+  font-weight: bold;
+  font-size: 17px;
+}
+.iconGener{
+  padding-top: 35%;
 }

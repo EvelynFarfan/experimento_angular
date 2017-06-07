@@ -1,0 +1,8 @@
+.titleFamily{
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold
+}
+.titleFamilyPrincipal{
+	font-size: 30px;
+}

@@ -17,13 +17,12 @@ const ITEMS: Item[] = [
 })
 
 export class CollapseComponent{
+	
 	items = ITEMS;
 	itemSeleccionado = Item;
-
 	seleccionar(item){
 		this.itemSeleccionado = item;
 	}
-
 	public isCollapsed:boolean = false;
 	public collapsed(event:any):void{
 		console.log(event);
@@ -31,7 +30,6 @@ export class CollapseComponent{
 	public expanded(event:any):void{
 		console.log(event);
 	}
-
 	
 };
 

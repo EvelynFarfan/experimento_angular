@@ -1,4 +1,5 @@
 .content {
     padding: 3px 70px 30px 70px;
     min-height: calc(100% - 123px);
+    font-family: 'Roboto', sans-serif;
 }
