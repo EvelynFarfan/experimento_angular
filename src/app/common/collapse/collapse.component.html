@@ -3,7 +3,7 @@
     <div>
         <div class="page">
             <ul class="nav nav--primary nav--alt">
-                <li (click) = 'isCollapsed=!isCollapsed' class="nav-item nav-item--primary" *ngFor="let item of items"  >
+                <li  class="nav-item nav-item--primary" *ngFor="let item of items" [attr.id]="'Location' + item.id">
                     <div class="nav-label">
                         <span class="itemInfo"> {{ item.info }} </span>
                         <span> {{ item.description }} </span>
