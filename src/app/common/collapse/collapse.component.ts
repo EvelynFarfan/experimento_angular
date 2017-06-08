@@ -22,6 +22,7 @@ export class CollapseComponent{
 
 	seleccionar(item){
 		this.itemSeleccionado = item;
+		console.log(item);
 	}
 };
 
