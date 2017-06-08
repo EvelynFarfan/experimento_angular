@@ -35,6 +35,7 @@ import { FooterComponent } from './common/footer/pie.component'
     AlertModule.forRoot(),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  
 })
 export class AppModule { }

@@ -12,6 +12,7 @@
     color: #fff;
     font-weight: 200;
     background-color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 .sidebar .sidebar-wrapper{
 	position: relative;
@@ -50,6 +51,7 @@
     margin: 0 auto;
 }
 .IconArrowMenu{
-	color: #00B1F1;
+	/*color: #00B1F1;*/
+    color: red;
     margin-right: 15px;
 }
