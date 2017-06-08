@@ -51,6 +51,7 @@
     margin: 0 auto;
 }
 .IconArrowMenu{
-	color: #00B1F1;
+	/*color: #00B1F1;*/
+    color: red;
     margin-right: 15px;
 }
