@@ -1,7 +1,7 @@
 .footer {
-    background-color: #d1d4d7;
+    background-color: #e1e1e1;
     line-height: 20px;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #d7d7d7;
 }
 .footer:not(.footer-big) nav > ul {
     font-size: 14px;

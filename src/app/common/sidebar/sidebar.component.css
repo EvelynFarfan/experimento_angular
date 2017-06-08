@@ -32,7 +32,7 @@
     float: none;
 }
 .sidebar .nav li > a, body > .navbar-collapse .nav li > a {
-    color: #80898E;
+    color: #959595;
     opacity: .86;
     display: block;
     padding: 14px 15px 14px 15px;
@@ -50,7 +50,17 @@
     border: 4px solid rgba(255, 255, 255, 0.3);
     margin: 0 auto;
 }
-.IconArrowMenu{
+.iconCircleMenu{
 	color: #00B1F1;
     margin-right: 15px;
+}
+.nav>.liMenu>a:hover {
+    text-decoration: none;
+    background-color: #00B1F1;
+} 
+.nav>.liMenu>a:hover .iconCircleMenu{
+    color: #fff;
+}
+.nav>.liMenu>a:hover .textMenu{
+    color: #fff;
 }

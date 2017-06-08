@@ -1,6 +1,7 @@
 /* -------------------------------------    CARDS   ------------------------------------ */
 .card{
   /*display: none;*/
+  width: 90%;
   border-radius: 4px;
   background-color: #FFFFFF;
   margin-bottom: 30px;
@@ -9,10 +10,11 @@
   font-family: 'Roboto', sans-serif ;
 }
 .card .header {
-  padding: 15px 15px 0;
+  padding: 20px 15px 15px;
+  border-bottom: 1px solid #e1e1e1;
 }
 .card .content {
-  padding: 15px 15px 10px 15px;
+  padding: 20px 15px 10px 15px;
 }
 .subtitleCard{
   color: #9c9c9c;
@@ -20,7 +22,7 @@
 }
 .buttonCard{
   background-color: #f9f9f9;
-  padding: 3% 0 1% 3%;
+  padding: 3% 0 0 3%;
   border-top: 1px solid #cecece
 }
 .buttonCard p{
@@ -40,7 +42,8 @@
   padding-top: 13%;
   font-weight: bold;
   font-size: 17px;
+  text-align: center
 }
 .iconGener{
-  padding-top: 35%;
+  padding-top: 75%;
 }

@@ -15,11 +15,10 @@
 		</div>
 		<hr>
 		<ul class="nav">
-			<li *ngFor = "let item of items">
+			<li class="liMenu" *ngFor = "let item of items">
 				<a href="#">
-					<!-- <i class="glyphicon glyphicon-triangle-right" id="IconArrowMenu"></i> -->
-					<i class="fa fa-circle-o IconArrowMenu" aria-hidden="true"></i>
-					<span>{{item}}</span>
+					<i class="fa fa-circle-o iconCircleMenu" aria-hidden="true"></i>
+					<span class="textMenu">{{item}}</span>
 				</a>
 			</li>
 		</ul>
