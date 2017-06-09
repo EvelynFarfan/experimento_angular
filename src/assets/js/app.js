@@ -18,7 +18,7 @@ $(document).ready(function() {
   });
   $('.collapse__head').click(function(){
     $(this).toggleClass('open'); 
-    $(this).parent().find('.collapse__body').slideToggle('fast');
+    $(this).parent().find('.collapse__body').slideToggle('slow');
   });
 });
 
