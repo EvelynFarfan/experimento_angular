@@ -57,6 +57,15 @@
 .info{
   margin-top: 10%;
 }
+.contentIconCogs{
+  padding-right: 6%;
+}
+.iconCogs{
+  color: #00B1F1;
+  text-align: right;
+  font-size: 20px;
+  float: right;
+}
 @media(min-width:768px) {
   .side-nav {
     position: fixed;

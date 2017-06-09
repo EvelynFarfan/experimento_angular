@@ -1,28 +1,54 @@
 <hr>
 <section class="content">
-    <div>
-        <div class="page">
-            <ul class="nav nav--primary nav--alt">
-                <li  class="nav-item nav-item--primary" *ngFor="let item of items" [attr.id]="'Location' + item.id">
-                    <div class="nav-label">
-                        <span class="itemInfo"> {{ item.info }} </span>
-                        <span class="itemDescription"> {{ item.description }} </span>
-                        <svg  class="nav-indicator nav-indicator--alt" width="22" height="22" viewbox="0 0 26 26">
-                            <path d="M11,1 L21,11 L11,21 L1,11"></path>
-                            <path d="M11,1 L1,11 L11,21 L1,11"></path>
-                        </svg>
-                    </div>
-                    <div class="nav nav--secondary">
-                        <div class="container-fluid container-cards">
-                            <div class="row">
-                                <div class="col-lg-4"><card></card></div>
-                                <div class="col-lg-4"><card></card></div>
-                                <div class="col-lg-4"><card></card></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>  
+  <div>
+    <div class="page">
+      <ul class="nav nav--primary nav--alt">
+        <li  class="nav-item nav-item--primary" *ngFor="let item of items" [attr.id]="'Location' + item.id">
+          <div class="nav-label">
+            <span class="itemInfo"> {{ item.info }} </span>
+            <span class="itemDescription"> {{ item.description }} </span>
+            <svg  class="nav-indicator nav-indicator--alt" width="22" height="22" viewbox="0 0 26 26">
+                <path d="M11,1 L21,11 L11,21 L1,11"></path>
+                <path d="M11,1 L1,11 L11,21 L1,11"></path>
+            </svg>
+          </div>
+          <div class="nav nav--secondary">
+            <div class="container-fluid container-cards">
+                <div class="row">
+                    <div class="col-lg-4"><card></card></div>
+                    <div class="col-lg-4"><card></card></div>
+                    <div class="col-lg-4"><card></card></div>
+                </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>  
+</section>
+
+<section class="collapse">
+  <div class="collapse__head"> collapse head</div>
+  <div class="collapse__body">
+    <div class="container-fluid container-cards">
+      <div class="row">
+        <div class="col-lg-4"><card></card></div>
+        <div class="col-lg-4"><card></card></div>
+        <div class="col-lg-4"><card></card></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="collapse">
+<div class="collapse__head"> collapse head</div>
+  <div class="collapse__body">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sequi eveniet eos quae rerum cupiditate non in dignissimos corporis deleniti labore minus similique incidunt reprehenderit sit nobis accusamus natus explicabo.</p>
+  </div>
+</section>
+<section class="collapse">
+<div class="collapse__head"> collapse head</div>
+  <div class="collapse__body">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sequi eveniet eos quae rerum cupiditate non in dignissimos corporis deleniti labore minus similique incidunt reprehenderit sit nobis accusamus natus explicabo.</p>
+  </div>
 </section>

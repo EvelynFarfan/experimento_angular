@@ -16,4 +16,9 @@ $(document).ready(function() {
       item.classList.toggle("is-active");
     };
   });
+  $('.collapse__head').click(function(){
+    $(this).toggleClass('open'); 
+    $(this).parent().find('.collapse__body').slideToggle('fast');
+  });
 });
+

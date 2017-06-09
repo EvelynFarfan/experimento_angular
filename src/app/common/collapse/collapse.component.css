@@ -86,3 +86,44 @@
 .itemDescription{
   color: #00B1F1;
 }
+
+
+
+
+
+
+/* ---------------------------------------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+.collapse {
+  margin-bottom: 20px;
+  display: block ;
+}
+.collapse .collapse__head {
+  width: 10%;
+  position: relative;
+  cursor: pointer;
+  background: #e5e5e5;
+  padding: 5px 10px 5px 30px;
+}
+.collapse .collapse__head:after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid #333;
+}
+.collapse .collapse__head.open:after {
+  top: 10px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #333;
+}
+.collapse .collapse__body {
+  padding: 10px;
+  display: none;
+}
+.collapse .collapse__body p {
+  margin: 0;
+}
