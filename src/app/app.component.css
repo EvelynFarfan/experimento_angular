@@ -1,5 +1,11 @@
 body {
-    min-height: 100vh !important;
-    position: relative !important;
+    margin-top: 100px;
+    background-color: #222;
     font-family: 'Roboto', sans-serif !important;
+}
+
+@media(min-width:768px) {
+    body {
+        margin-top: 50px;
+    }
 }

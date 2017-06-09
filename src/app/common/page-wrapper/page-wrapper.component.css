@@ -1,0 +1,11 @@
+#page-wrapper {
+  width: 100%;
+  padding: 0;
+  background-color: #fff;
+}
+
+@media(min-width:768px) {
+  #page-wrapper {
+    padding: 6% 3%;
+  }
+}

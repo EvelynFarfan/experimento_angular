@@ -6,12 +6,10 @@ import { AlertModule } from 'ngx-bootstrap';
 
 import { AppComponent } from './app.component'
 import { WrapperComponent } from './common/wrapper/wrapper.component'
-import { MainHeaderComponent } from './common/main-header/mainHeader.component'
+import { NavbarComponent } from './common/navbar/navbar.component' //
 import { SidebarComponent } from './common/sidebar/sidebar.component' //
-import { MainPanelComponent } from './common/MainPanel/main-panel.component'  //
-import { NavbarComponent } from './common/navbar/navbar.component' // 
-import { ContentComponent } from './common/content/content.component' // 
-import { TittleFamilyComponent } from './common/TittleFamily/tittle-family.component'
+import { PageWrapperComponent } from './common/page-wrapper/page-wrapper.component' 
+import { TitleContentComponent } from './common/title-content/title-content.component'
 import { CollapseComponent } from './common/collapse/collapse.component' 
 import { CardComponent } from './common/card/card.component'
 import { FooterComponent } from './common/footer/pie.component'//
@@ -20,12 +18,10 @@ import { FooterComponent } from './common/footer/pie.component'//
   declarations: [
     AppComponent,
     WrapperComponent,
-    MainHeaderComponent,
     SidebarComponent,
-    MainPanelComponent,
     NavbarComponent,
-    ContentComponent,
-    TittleFamilyComponent,
+    PageWrapperComponent,
+    TitleContentComponent,
     CollapseComponent,
     CardComponent,
     FooterComponent,
